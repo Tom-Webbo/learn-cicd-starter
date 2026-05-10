@@ -18,7 +18,7 @@ func TestAuth(t *testing.T) {
 	if err == nil {
 		t.Fatal("Failed to catch split failure")
 	}
-	req.Header.Set("Authorization", "ApiKey12344")
+	req.Header.Set("Authorization", "ApiKey 12344")
 	apiKey, err := GetAPIKey(req.Header)
 	if err != nil {
 		t.Fatal("Failed to get api key")

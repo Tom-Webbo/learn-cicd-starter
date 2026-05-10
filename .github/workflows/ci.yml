@@ -21,7 +21,7 @@ jobs:
       - name: run test units
         run: go test ./... -cover
   
-  style:
+  Style:
     name: style
     runs-on: ubuntu-latest
 

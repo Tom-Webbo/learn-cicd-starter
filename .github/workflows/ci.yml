@@ -19,7 +19,7 @@ jobs:
           go-version: "1.26.0"
 
       - name: run test units
-        run: go test ./... -covergit 
+        run: go test ./... -cover
   
   style:
     name: style
